@@ -1,18 +1,20 @@
 ---
-title: Frank Gabel, PhD
-type: docs
+title: Home
+weight: 1
+bookToc: false
 ---
 
 # Frank Gabel, PhD
 
 **Principal AI Engineer**
 
-Statistics, Machine Learning  
+Specializing in Statistics and Machine Learning  
 University of Heidelberg
 
 ---
 
-## Links
+Welcome to my personal website. Here you'll find information about my work in artificial intelligence, machine learning, and statistics.
 
-- [GitHub](https://github.com/fgabel)
-- [LinkedIn](https://www.linkedin.com/in/frank-gabel/)
+{{< button relref="/about" >}}Learn More About Me{{< /button >}}
+{{< button relref="/posts" >}}Read My Blog{{< /button >}}
+{{< button relref="/links" >}}Connect With Me{{< /button >}}

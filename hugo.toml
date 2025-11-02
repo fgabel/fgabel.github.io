@@ -6,7 +6,7 @@ title = 'Frank Gabel, PhD'
 disableKinds = ['taxonomy', 'taxonomyTerm']
 
 [params]
-  # Set color theme to light
+  # Set color theme to auto (switches between light/dark based on system preference)
   BookTheme = 'auto'
   
   # Disable table of contents by default
@@ -18,11 +18,33 @@ disableKinds = ['taxonomy', 'taxonomyTerm']
   # Disable comments
   BookComments = false
   
-  # Set the docs section (empty since we removed docs)
+  # Show all sections in menu
   BookSection = '*'
   
   # Repository information
   BookRepo = 'https://github.com/fgabel/fgabel.github.io'
+
+# Enable menu rendering from front matter weight
+[menu]
+  [[menu.before]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  
+  [[menu.before]]
+    name = "About"
+    url = "/about"
+    weight = 2
+  
+  [[menu.before]]
+    name = "Blog"
+    url = "/posts"
+    weight = 3
+  
+  [[menu.before]]
+    name = "Links"
+    url = "/links"
+    weight = 4
 
 [markup.goldmark.renderer]
   unsafe = true
