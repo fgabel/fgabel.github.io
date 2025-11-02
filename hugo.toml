@@ -1,0 +1,29 @@
+baseURL = 'https://fgabel.github.io/'
+languageCode = 'en-us'
+title = 'Frank Gabel, PhD'
+
+# Disable taxonomy pages since this is a personal site
+disableKinds = ['taxonomy', 'taxonomyTerm']
+
+[params]
+  # Set color theme to light
+  BookTheme = 'auto'
+  
+  # Disable table of contents by default
+  BookToC = false
+  
+  # Disable search
+  BookSearch = false
+  
+  # Disable comments
+  BookComments = false
+  
+  # Set the docs section (empty since we removed docs)
+  BookSection = '*'
+  
+  # Repository information
+  BookRepo = 'https://github.com/fgabel/fgabel.github.io'
+
+[markup.goldmark.renderer]
+  unsafe = true
+
